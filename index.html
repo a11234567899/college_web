@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section id="header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="nav-Links">
+                <i class="fa fa-times" oneclick="hideMenue()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" oneclick="showMenue()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>World's Biggest universitiy</h1>
+            <p>Our aime is provide free education can't afford it because it is necessary for all <br> those who have no
+                power to in the front of sonmone
+            </p>
+            <a href="" class="hero-btn">visit us to more</a>
+        </div>
+    </section>
+
+    <section class="Course">
+        <h1>courses we offer</h1>
+        <p>we are offering some our best courses on resonalbe price this can be helpfull for those who has real power to
+            do something</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermidite</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ratione voluptatum ut porro quis
+                    asperiores ipsum, voluptates praesentium illum est similique rem at facilis ea. Amet deleniti
+                    repellendus atque asperiores, incidunt maiores nesciunt consequuntur!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ratione voluptatum ut porro quis
+                    asperiores ipsum, voluptates praesentium illum est similique rem at facilis ea. Amet deleniti
+                    repellendus atque asperiores, incidunt maiores nesciunt consequuntur!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ratione voluptatum ut porro quis
+                    asperiores ipsum, voluptates praesentium illum est similique rem at facilis ea. Amet deleniti
+                    repellendus atque asperiores, incidunt maiores nesciunt consequuntur!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem ab rerum eius impedit, accusamus at.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="eduford_img/london.png">
+                <div class="layer">
+                    <h3>United state</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="eduford_img/newyork.png">
+                <div class="layer">
+                    <h3>Japan</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="eduford_img/washington.png">
+                <div class="layer">
+                    <h3>Dubai</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab labore omnis ipsum.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png">
+                <h3>World Class library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque totam nulla aut dicta molestias
+                    ea maxime provident ut eveniet dolore?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque totam nulla aut dicta molestias
+                    ea maxime provident ut eveniet dolore?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png">
+                <h3>Healthy and Tasty</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque totam nulla aut dicta molestias
+                    ea maxime provident ut eveniet dolore?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenue() {
+            navLinks.style.right = "0";
+        }
+        function hideMenue() {
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+</body>
+
+</html>
